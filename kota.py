@@ -16,7 +16,7 @@ class PetaKota:
         self.lebar_jalan = 20
         self.persimpangan = []
         self.jarak_bangunan = 10
-        
+        #Deklarasi Bangunan dan Dekor
         self.bangunan = [
             Image.open("build/sedang1.png").resize((50,30)),
             Image.open("build/sedang2-x.png").resize((50,30)), 
