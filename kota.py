@@ -18,19 +18,19 @@ class PetaKota:
         self.jarak_bangunan = 10
         
         self.bangunan = [
-            Image.open("building/sedang1.png").resize((50,30)),
-            Image.open("building/besar2-x.png").resize((100,50)),
-            Image.open("building/rumah1.png").resize((20,10)),
-            Image.open("building/kecil2.png").resize((20,20)),
+            Image.open("build/sedang1.png").resize((50,30)),
+            Image.open("build/besar2-x.png").resize((100,50)),
+            Image.open("build/rumah1.png").resize((20,10)),
+            Image.open("build/kecil2.png").resize((20,20)),
         ]
 
         self.lingkungan = [
-            Image.open("env/Pohon1.jpg").resize((20,20)),
-            Image.open("env/pohon2.png").resize((20,20)),
-            Image.open("env/pohon3.png").resize((20,20)), 
-            Image.open("env/pohon4.png").resize((20,20)), 
-            Image.open("env/pohon5.png").resize((20,20)), 
-            Image.open("env/batu.jpg").resize((20,20))
+            Image.open("decor/Pohon1.jpg").resize((20,20)),
+            Image.open("decor/pohon2.png").resize((20,20)),
+            Image.open("decor/pohon3.png").resize((20,20)), 
+            Image.open("decor/pohon4.png").resize((20,20)), 
+            Image.open("decor/pohon5.png").resize((20,20)), 
+            Image.open("decor/batu.jpg").resize((20,20))
         ]
         self.gambar_peta = Image.new("RGBA", (self.lebar, self.tinggi), "gray")
         self.gambar_peta_draw = ImageDraw.Draw(self.gambar_peta)
@@ -91,10 +91,10 @@ class PetaKota:
         self.gambar_peta_draw = ImageDraw.Draw(self.gambar_peta)
         self.buat_jalan(self.simpul_terakhir, "y")
         #Save map
-        self.gambar_peta.save("map1.png")
+        #self.gambar_peta.save("map1.png")
         self.mapping()
         #Save map2
-        self.gambar_peta.save("map2.png")
+        #self.gambar_peta.save("map2.png")
         return self.gambar_peta
 
     #Panggil fungsi generate building ketika jalan sudah berada di batas bawah map
