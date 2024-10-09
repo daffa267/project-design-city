@@ -1,3 +1,8 @@
-This is our project about Desain City with Algorithm Analysis
+Map Generator make for Implemented Desain and Analysis Algorithm.
 
-Group Member : 2201020075 - M. Mudaffarsyah, 2201020094 - Muhammad Azza Al Kausar
+Universitas Maritim Raja Ali Haji
+Fakultas Teknik dan Teknologi Kemaritiman
+Semester IV
+
+2201020075 - M. Mudaffarsyah (Desain, Back-end)
+2201020094 - Muhammad Azza Al Kausar (Desain, Back-end)
